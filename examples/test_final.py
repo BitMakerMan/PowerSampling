@@ -8,7 +8,7 @@ import os
 # Add the src directory to Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from power_sampling import load_model_and_tokenizer, power_sample
+from src.power_sampling import load_model_and_tokenizer, power_sample
 
 
 def main():
