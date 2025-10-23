@@ -1,0 +1,2 @@
+[console_scripts]
+power-sampling = src.cli:main
